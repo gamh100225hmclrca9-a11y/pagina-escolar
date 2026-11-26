@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CECyTEM | Navidad Grinch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">💚 CECyTEM</div>
+    <nav>
+        <a href="inicio.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="quienessomos.html">Quiénes somos</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <span class="temporada">🎄 EDICIÓN NAVIDEÑA 🎄</span>
+        <h1>¡Bienvenidos al CECyTEM!</h1>
+        <h2>Hasta el Grinch ama aprender aquí.</h2>
+        <p>
+            Un espacio donde los sueños crecen, el conocimiento se comparte
+            y la magia de la Navidad nos une.
+        </p>
+        <a href="#galeria" class="btn">Conoce nuestra escuela</a>
+    </div>
+</section>
+
+<section class="bienvenida">
+    <h2>💚 ¡La educación es nuestro mejor regalo!</h2>
+    <p>
+        En el CECyTEM formamos estudiantes con conocimientos,
+        habilidades y valores para construir un mejor futuro.
+        Descubre nuestras instalaciones, actividades y comunidad escolar.
+    </p>
+</section>
+
+<section class="contenido grinch-datos">
+    <h2>😈 El Grinch también estudia en el CECyTEM</h2>
+    <div class="tarjetas">
+        <div class="tarjeta">
+            <h3>📚 Aprender</h3>
+            <p>"Hasta el corazón más pequeño puede crecer con conocimiento."</p>
+        </div>
+        <div class="tarjeta">
+            <h3>🤝 Compartir</h3>
+            <p>En el CECyTEM la Navidad se vive con amigos, maestros y trabajo en equipo.</p>
+        </div>
+        <div class="tarjeta">
+            <h3>🎁 Crecer</h3>
+            <p>Cada estudiante es un regalo para nuestra comunidad escolar.</p>
+        </div>
+    </div>
+</section>
+
+<section class="galeria" id="galeria">
+    <h2>📸 Nuestra escuela</h2>
+    <p class="subtitulo">Conoce algunos espacios de nuestro CECyTEM.</p>
+
+    <div class="galeria-grid">
+        <div class="foto">
+            <img src="img/escuela1.jpg" alt="Fachada del CECyTEM">
+            <h3>Entrada de la escuela</h3>
+        </div>
+        <div class="foto">
+            <img src="img/escuela2.jpg" alt="Instalaciones del CECyTEM">
+            <h3>Instalaciones</h3>
+        </div>
+        <div class="foto">
+            <img src="img/escuela3.jpg" alt="Salones del CECyTEM">
+            <h3>Salones</h3>
+        </div>
+        <div class="foto">
+            <img src="img/escuela4.jpg" alt="Laboratorios escolares">
+            <h3>Laboratorios</h3>
+        </div>
+        <div class="foto">
+            <img src="img/escuela5.jpg" alt="Actividades escolares">
+            <h3>Actividades escolares</h3>
+        </div>
+        <div class="foto">
+            <img src="img/escuela6.jpg" alt="Comunidad estudiantil">
+            <h3>Nuestra comunidad</h3>
+        </div>
+    </div>
+</section>
+
+<section class="resenas" id="resenas">
+    <h2>⭐ Comparte tu experiencia</h2>
+    <p>Cuéntanos qué opinas de nuestra escuela.</p>
+
+    <form class="formulario" id="formResenas">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
+
+        <label for="carrera">Carrera o especialidad:</label>
+        <input type="text" id="carrera" placeholder="Ej. Programación" required>
+
+        <label for="calificacion">Califica tu experiencia:</label>
+        <select id="calificacion" required>
+            <option value="">Selecciona una calificación</option>
+            <option value="5">⭐⭐⭐⭐⭐ Excelente</option>
+            <option value="4">⭐⭐⭐⭐ Muy buena</option>
+            <option value="3">⭐⭐⭐ Buena</option>
+            <option value="2">⭐⭐ Regular</option>
+            <option value="1">⭐ Puede mejorar</option>
+        </select>
+
+        <label for="comentario">Tu reseña:</label>
+        <textarea id="comentario" rows="5" placeholder="Escribe tu opinión sobre el CECyTEM..." required></textarea>
+
+        <button type="submit" class="btn">Publicar reseña 🎄</button>
+    </form>
+
+    <div class="resenas-publicadas">
+        <h3>💬 Opiniones de nuestra comunidad</h3>
+        <div id="listaResenas">
+            <p class="sin-resenas">¡Sé el primero en compartir tu experiencia!</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <h3>💚 CECyTEM</h3>
+    <p>Educación, tecnología y un futuro lleno de oportunidades.</p>
+    <p>© 2026 Proyecto escolar con temática del Grinch.</p>
+</footer>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
